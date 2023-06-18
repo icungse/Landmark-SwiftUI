@@ -68,3 +68,4 @@ fastlane/screenshots/**/*.png
 fastlane/test_output
 Landmarks.xcodeproj/project.xcworkspace/xcshareddata
 Landmarks.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+.DS_Store
