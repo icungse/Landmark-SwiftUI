@@ -24,6 +24,7 @@
 		FED2D82F2A3F26F90011C865 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2D82E2A3F26F90011C865 /* ModelData.swift */; };
 		FED2D8342A3F29090011C865 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2D8332A3F29090011C865 /* LandmarkRow.swift */; };
 		FEDBFE0E2A4062DF00EFEA71 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDBFE0D2A4062DF00EFEA71 /* HexagonParameters.swift */; };
+		FEDBFE102A40649000EFEA71 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDBFE0F2A40649000EFEA71 /* BadgeBackground.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		FED2D82E2A3F26F90011C865 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		FED2D8332A3F29090011C865 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 		FEDBFE0D2A4062DF00EFEA71 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
+		FEDBFE0F2A40649000EFEA71 /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				FE34B4B82A3F554E0087FA6F /* FavoriteButton.swift */,
 				FED2D8282A3F1D050011C865 /* MapView.swift */,
 				FED2D8262A3F1C170011C865 /* CircleImage.swift */,
+				FEDBFE0F2A40649000EFEA71 /* BadgeBackground.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -246,6 +249,7 @@
 				FED2D82D2A3F25470011C865 /* Landmark.swift in Sources */,
 				FED2D8342A3F29090011C865 /* LandmarkRow.swift in Sources */,
 				FEB751042A3F80A200769F5C /* CategoryRow.swift in Sources */,
+				FEDBFE102A40649000EFEA71 /* BadgeBackground.swift in Sources */,
 				FED2D82F2A3F26F90011C865 /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
