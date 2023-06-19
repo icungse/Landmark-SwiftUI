@@ -23,6 +23,7 @@
 		FED2D82D2A3F25470011C865 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2D82C2A3F25470011C865 /* Landmark.swift */; };
 		FED2D82F2A3F26F90011C865 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2D82E2A3F26F90011C865 /* ModelData.swift */; };
 		FED2D8342A3F29090011C865 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2D8332A3F29090011C865 /* LandmarkRow.swift */; };
+		FEDBFE0E2A4062DF00EFEA71 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDBFE0D2A4062DF00EFEA71 /* HexagonParameters.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		FED2D82C2A3F25470011C865 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		FED2D82E2A3F26F90011C865 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		FED2D8332A3F29090011C865 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
+		FEDBFE0D2A4062DF00EFEA71 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 				FE34B4BA2A3F56440087FA6F /* Helpers */,
 				FE34B4BB2A3F565C0087FA6F /* Landmarks */,
 				FED2D81A2A3F12280011C865 /* ContentView.swift */,
+				FEDBFE0D2A4062DF00EFEA71 /* HexagonParameters.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEDBFE0E2A4062DF00EFEA71 /* HexagonParameters.swift in Sources */,
 				FED2D81B2A3F12280011C865 /* ContentView.swift in Sources */,
 				FED2D8292A3F1D050011C865 /* MapView.swift in Sources */,
 				FED2D8192A3F12280011C865 /* LandmarksApp.swift in Sources */,
