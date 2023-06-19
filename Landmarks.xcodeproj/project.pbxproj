@@ -34,6 +34,11 @@
 		FEDBFE2D2A409F6900EFEA71 /* HikeGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDBFE292A409F6900EFEA71 /* HikeGraph.swift */; };
 		FEDBFE2E2A409F6900EFEA71 /* HikeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDBFE2A2A409F6900EFEA71 /* HikeDetail.swift */; };
 		FEDBFE2F2A409F6900EFEA71 /* HikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDBFE2B2A409F6900EFEA71 /* HikeView.swift */; };
+		FEDBFE312A40CF1D00EFEA71 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDBFE302A40CF1D00EFEA71 /* Profile.swift */; };
+		FEDBFE352A40CF6300EFEA71 /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDBFE342A40CF6300EFEA71 /* ProfileHost.swift */; };
+		FEDBFE372A40D08C00EFEA71 /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDBFE362A40D08C00EFEA71 /* ProfileSummary.swift */; };
+		FEDBFE392A40D10600EFEA71 /* HikeBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDBFE382A40D10600EFEA71 /* HikeBadge.swift */; };
+		FEDBFE3B2A40D72B00EFEA71 /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDBFE3A2A40D72B00EFEA71 /* ProfileEditor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +70,11 @@
 		FEDBFE292A409F6900EFEA71 /* HikeGraph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeGraph.swift; sourceTree = "<group>"; };
 		FEDBFE2A2A409F6900EFEA71 /* HikeDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeDetail.swift; sourceTree = "<group>"; };
 		FEDBFE2B2A409F6900EFEA71 /* HikeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeView.swift; sourceTree = "<group>"; };
+		FEDBFE302A40CF1D00EFEA71 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		FEDBFE342A40CF6300EFEA71 /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
+		FEDBFE362A40D08C00EFEA71 /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
+		FEDBFE382A40D10600EFEA71 /* HikeBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeBadge.swift; sourceTree = "<group>"; };
+		FEDBFE3A2A40D72B00EFEA71 /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +113,8 @@
 			children = (
 				FE9AD7EC2A3F7A900050C9DA /* Views */,
 			);
-			path = Categories;
+			name = Categories;
+			path = ../Categories;
 			sourceTree = "<group>";
 		};
 		FE9AD7EC2A3F7A900050C9DA /* Views */ = {
@@ -140,7 +151,6 @@
 				FED2D8312A3F28320011C865 /* Model */,
 				FED2D8322A3F284C0011C865 /* Resources */,
 				FED2D8302A3F281C0011C865 /* Views */,
-				FE9AD7EB2A3F7A870050C9DA /* Categories */,
 				FED2D81E2A3F12280011C865 /* Preview Content */,
 			);
 			path = Landmarks;
@@ -157,6 +167,8 @@
 		FED2D8302A3F281C0011C865 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				FEDBFE332A40CF5400EFEA71 /* Profiles */,
+				FE9AD7EB2A3F7A870050C9DA /* Categories */,
 				FEDBFE272A409F6900EFEA71 /* Hikes */,
 				FEDBFE172A409C5900EFEA71 /* Badges */,
 				FE34B4BA2A3F56440087FA6F /* Helpers */,
@@ -173,6 +185,7 @@
 				FED2D82C2A3F25470011C865 /* Landmark.swift */,
 				FED2D82E2A3F26F90011C865 /* ModelData.swift */,
 				FEDBFE1A2A409E6400EFEA71 /* Hike.swift */,
+				FEDBFE302A40CF1D00EFEA71 /* Profile.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -204,8 +217,19 @@
 				FEDBFE292A409F6900EFEA71 /* HikeGraph.swift */,
 				FEDBFE2A2A409F6900EFEA71 /* HikeDetail.swift */,
 				FEDBFE2B2A409F6900EFEA71 /* HikeView.swift */,
+				FEDBFE382A40D10600EFEA71 /* HikeBadge.swift */,
 			);
 			path = Hikes;
+			sourceTree = "<group>";
+		};
+		FEDBFE332A40CF5400EFEA71 /* Profiles */ = {
+			isa = PBXGroup;
+			children = (
+				FEDBFE342A40CF6300EFEA71 /* ProfileHost.swift */,
+				FEDBFE362A40D08C00EFEA71 /* ProfileSummary.swift */,
+				FEDBFE3A2A40D72B00EFEA71 /* ProfileEditor.swift */,
+			);
+			path = Profiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,6 +305,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FEDBFE2C2A409F6900EFEA71 /* GraphCapsule.swift in Sources */,
+				FEDBFE312A40CF1D00EFEA71 /* Profile.swift in Sources */,
 				FEDBFE0E2A4062DF00EFEA71 /* HexagonParameters.swift in Sources */,
 				FED2D81B2A3F12280011C865 /* ContentView.swift in Sources */,
 				FED2D8292A3F1D050011C865 /* MapView.swift in Sources */,
@@ -291,14 +316,18 @@
 				FE34B4B92A3F554E0087FA6F /* FavoriteButton.swift in Sources */,
 				FEDBFE142A409A2B00EFEA71 /* RotatedBadgeSymbol.swift in Sources */,
 				FEDBFE122A4098B700EFEA71 /* BadgeSymbol.swift in Sources */,
+				FEDBFE372A40D08C00EFEA71 /* ProfileSummary.swift in Sources */,
 				FEDBFE162A409AC800EFEA71 /* Badge.swift in Sources */,
+				FEDBFE352A40CF6300EFEA71 /* ProfileHost.swift in Sources */,
 				FE9AD7EE2A3F7AE80050C9DA /* CategoryHome.swift in Sources */,
 				FE34B4B52A3F2BB40087FA6F /* LandmarkList.swift in Sources */,
 				FE34B4B72A3F2DF20087FA6F /* LandmarkDetail.swift in Sources */,
+				FEDBFE3B2A40D72B00EFEA71 /* ProfileEditor.swift in Sources */,
 				FEDBFE2F2A409F6900EFEA71 /* HikeView.swift in Sources */,
 				FED2D8272A3F1C170011C865 /* CircleImage.swift in Sources */,
 				FEB751062A3F827B00769F5C /* CategoryItem.swift in Sources */,
 				FED2D82D2A3F25470011C865 /* Landmark.swift in Sources */,
+				FEDBFE392A40D10600EFEA71 /* HikeBadge.swift in Sources */,
 				FED2D8342A3F29090011C865 /* LandmarkRow.swift in Sources */,
 				FEB751042A3F80A200769F5C /* CategoryRow.swift in Sources */,
 				FEDBFE102A40649000EFEA71 /* BadgeBackground.swift in Sources */,
