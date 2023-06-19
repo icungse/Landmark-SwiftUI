@@ -38,6 +38,7 @@
 		FEDBFE352A40CF6300EFEA71 /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDBFE342A40CF6300EFEA71 /* ProfileHost.swift */; };
 		FEDBFE372A40D08C00EFEA71 /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDBFE362A40D08C00EFEA71 /* ProfileSummary.swift */; };
 		FEDBFE392A40D10600EFEA71 /* HikeBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDBFE382A40D10600EFEA71 /* HikeBadge.swift */; };
+		FEDBFE3B2A40D72B00EFEA71 /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDBFE3A2A40D72B00EFEA71 /* ProfileEditor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +74,7 @@
 		FEDBFE342A40CF6300EFEA71 /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
 		FEDBFE362A40D08C00EFEA71 /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
 		FEDBFE382A40D10600EFEA71 /* HikeBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeBadge.swift; sourceTree = "<group>"; };
+		FEDBFE3A2A40D72B00EFEA71 /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -225,6 +227,7 @@
 			children = (
 				FEDBFE342A40CF6300EFEA71 /* ProfileHost.swift */,
 				FEDBFE362A40D08C00EFEA71 /* ProfileSummary.swift */,
+				FEDBFE3A2A40D72B00EFEA71 /* ProfileEditor.swift */,
 			);
 			path = Profiles;
 			sourceTree = "<group>";
@@ -319,6 +322,7 @@
 				FE9AD7EE2A3F7AE80050C9DA /* CategoryHome.swift in Sources */,
 				FE34B4B52A3F2BB40087FA6F /* LandmarkList.swift in Sources */,
 				FE34B4B72A3F2DF20087FA6F /* LandmarkDetail.swift in Sources */,
+				FEDBFE3B2A40D72B00EFEA71 /* ProfileEditor.swift in Sources */,
 				FEDBFE2F2A409F6900EFEA71 /* HikeView.swift in Sources */,
 				FED2D8272A3F1C170011C865 /* CircleImage.swift in Sources */,
 				FEB751062A3F827B00769F5C /* CategoryItem.swift in Sources */,
