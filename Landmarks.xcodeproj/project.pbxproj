@@ -42,6 +42,7 @@
 		FEDBFE3E2A41BC6300EFEA71 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDBFE3D2A41BC6300EFEA71 /* PageViewController.swift */; };
 		FEDBFE402A41BE7700EFEA71 /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDBFE3F2A41BE7700EFEA71 /* FeatureCard.swift */; };
 		FEDBFE422A41C1CA00EFEA71 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDBFE412A41C1CA00EFEA71 /* PageView.swift */; };
+		FEDBFE442A4228AD00EFEA71 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDBFE432A4228AD00EFEA71 /* PageControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -81,6 +82,7 @@
 		FEDBFE3D2A41BC6300EFEA71 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		FEDBFE3F2A41BE7700EFEA71 /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
 		FEDBFE412A41C1CA00EFEA71 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		FEDBFE432A4228AD00EFEA71 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -245,6 +247,7 @@
 				FEDBFE3D2A41BC6300EFEA71 /* PageViewController.swift */,
 				FEDBFE3F2A41BE7700EFEA71 /* FeatureCard.swift */,
 				FEDBFE412A41C1CA00EFEA71 /* PageView.swift */,
+				FEDBFE432A4228AD00EFEA71 /* PageControl.swift */,
 			);
 			path = PageView;
 			sourceTree = "<group>";
@@ -331,6 +334,7 @@
 				FEDBFE1B2A409E6400EFEA71 /* Hike.swift in Sources */,
 				FED2D8192A3F12280011C865 /* LandmarksApp.swift in Sources */,
 				FEDBFE2E2A409F6900EFEA71 /* HikeDetail.swift in Sources */,
+				FEDBFE442A4228AD00EFEA71 /* PageControl.swift in Sources */,
 				FE34B4B92A3F554E0087FA6F /* FavoriteButton.swift in Sources */,
 				FEDBFE142A409A2B00EFEA71 /* RotatedBadgeSymbol.swift in Sources */,
 				FEDBFE122A4098B700EFEA71 /* BadgeSymbol.swift in Sources */,
